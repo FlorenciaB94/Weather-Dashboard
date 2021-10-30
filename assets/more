@@ -1,0 +1,22 @@
+// function getWeather(cityName) {
+//     return fetch(`https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid=${APIKey}`)
+//     .then(function (response) {
+//       return response.json();
+//     })
+//     .then(function (data) {
+//       var weatherData = [];  
+//       var cities = data.results;
+//       for (var i = 0; i< 6; i++ ){
+//         var city = cities[i];
+//           weatherData.push(
+//           {
+//             temp: current.temp,
+//             wind: current.wind_speed,
+//             humidity: current.humidity,
+//             uvi: current.uvi,
+//           })
+//       }
+//       console.log(weatherData); 
+//       return weatherData;
+//     });
+//   };
